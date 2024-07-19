@@ -108,7 +108,6 @@ Una vez creado podremos terminar de configurar nuestra función vía CLI:
 
 ```bash
 az functionapp config appsettings set --name {name_app} -g {name_group} --settings AzureWebJobsFeatureFlags=EnableWorkerIndexing
-az functionapp config appsettings set --name {name_app} -g {name_group} --settings WEBSITE_RUN_FROM_PACKAGE=1
 ```
 
 Y ya podremos mandar la función:
